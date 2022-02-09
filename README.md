@@ -12,3 +12,12 @@
 
 > After the execution, a file called _capture.log_  should be created in the same directory where the jar file is placed
 > This file contains information regarding the SSH handshake and hopefully the application welcome screen indicating the POC was a success.
+
+## Build
+
+### Requirements 
+- Maven 3.8+
+
+### How to build
+- Run `mvn clean package` on the repository root directory
+- Jar file will be located in target/
